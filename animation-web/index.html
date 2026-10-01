@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Hadi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">AH</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-links active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Camera Lens -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <svg class="camera-lens" viewBox="0 0 400 400" width="400" height="400">
+                <circle class="lens-blade" cx="200" cy="200" r="200" fill="black" />
+                <path class="blade blade-1" d="M 200,200 L 200,0 A 200,200 0 0,1 282.8,117.2 Z" fill="black" />
+                <path class="blade blade-2" d="M 200,200 L 282.8,117.2 A 200,200 0 0,1 400,200 Z" fill="black" />
+                <path class="blade blade-3" d="M 200,200 L 400,200 A 200,200 0 0,1 282.8,282.8 Z" fill="black" />
+                <path class="blade blade-4" d="M 200,200 L 282.8,282.8 A 200,200 0 0,1 200,400 Z" fill="black" />
+                <path class="blade blade-5" d="M 200,200 L 200,400 A 200,200 0 0,1 117.2,282.8 Z" fill="black" />
+                <path class="blade blade-6" d="M 200,200 L 117.2,282.8 A 200,200 0 0,1 0,200 Z" fill="black" />
+                <path class="blade blade-7" d="M 200,200 L 0,200 A 200,200 0 0,1 117.2,117.2 Z" fill="black" />
+                <path class="blade blade-8" d="M 200,200 L 117.2,117.2 A 200,200 0 0,1 200,0 Z" fill="black" />
+            </svg>
+
+            <div class="hero-text">
+                <h1 class="hero-title">Abdul Hadi</h1>
+                <p class="hero-subtitle">Web Developer & Designer</p>
+                <p class="hero-description">Creating amazing digital experiences with modern technologies</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Abdul Hadi, a passionate web developer with a focus on creating beautiful and functional websites. I love turning complex problems into simple, intuitive designs.</p>
+                    <p>With expertise in front-end development, I specialize in crafting responsive web experiences using modern technologies like HTML5, CSS3, and JavaScript.</p>
+                    <p>When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, or enjoying a good cup of chai!</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>30+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured e-commerce website built with HTML, CSS, and JavaScript with cart functionality and payment integration.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Portfolio</h3>
+                    <p>A beautiful, fully responsive portfolio website showcasing work across different devices and screen sizes.</p>
+                    <div class="project-tags">
+                        <span class="tag">Responsive</span>
+                        <span class="tag">Mobile</span>
+                        <span class="tag">Design</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Interactive dashboard for visualizing data with real-time updates and beautiful chart visualizations.</p>
+                    <div class="project-tags">
+                        <span class="tag">Analytics</span>
+                        <span class="tag">Charts</span>
+                        <span class="tag">Real-time</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Streaming App</h3>
+                    <p>A modern video streaming platform with user authentication and personalized content recommendations.</p>
+                    <div class="project-tags">
+                        <span class="tag">Streaming</span>
+                        <span class="tag">Auth</span>
+                        <span class="tag">Video</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>Social Marketplace</h3>
+                    <p>A social commerce platform connecting sellers and buyers with real-time messaging and transaction management.</p>
+                    <div class="project-tags">
+                        <span class="tag">Social</span>
+                        <span class="tag">Marketplace</span>
+                        <span class="tag">Chat</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Task Management Tool</h3>
+                    <p>A productivity app for managing tasks, teams, and projects with collaboration features and deadline tracking.</p>
+                    <div class="project-tags">
+                        <span class="tag">Productivity</span>
+                        <span class="tag">Collaboration</span>
+                        <span class="tag">Tools</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-bar">
+                        <span class="skill-name">HTML & CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">React</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-bar">
+                        <span class="skill-name">Node.js</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">MongoDB</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Python</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Design</h3>
+                    <div class="skill-bar">
+                        <span class="skill-name">Figma</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Adobe XD</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">UI/UX Design</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Have a project in mind? I'd love to help bring your ideas to life!</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:abdul@example.com">abdul@example.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+92300000000">+92 300 000 0000</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Abdul Hadi. All rights reserved.</p>
+            <p>Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Anime.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

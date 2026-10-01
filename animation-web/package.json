@@ -1,0 +1,17 @@
+{
+  "name": "anime-camera-animation",
+  "version": "1.0.0",
+  "description": "Camera lens opening animation using Anime.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "anime.js",
+    "animation",
+    "camera",
+    "lens"
+  ],
+  "author": "",
+  "license": "MIT"
+}
